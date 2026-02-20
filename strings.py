@@ -75,4 +75,38 @@ print("saikeerthi".index("e"))
 print("saikeerthi".rindex("i"))
 print("saikeerthi".count("i"))
 
+#string Testing Methods(Boolean Result)
+#Startwitih(sub), endswith(sub), isalpha(), islower(), isupper(), istitle(), isidentifier()
+print("python".startswith("py"))
+print("python".endswith("on"))
+print("hello".isalpha())
+print("123python".isalnum())
+print("hello".islower())
+print("hello".isupper())
+print("hello".isidentifier())
+print("Hello World".istitle())
+print(" ".isspace())
 
+#Replace And Modify Methods
+#replace(old,new), translate(table), marketrans()
+print("apple".replace("p","b"))
+print("abc".translate(str.maketrans("a","x"))) 
+
+#sliptig And JOin Methods
+#split(sep), rsplit(sep), splitlines(), join(itarable), partition(sep), #rpartition() 
+print("a","b".split(" "))
+print("a","b","c".rsplit(",",1))
+print("hellol\nworld".splitlines())
+print(" ".join(["hello","world"]))
+print("aplle-pie".partition("-"))
+print("apple-pie".rpartition("-"))
+
+#Whitespace & trimming methods
+#strip(chars), rstrip(char), lsrip(char)
+print("    hello world".strip())
+print("----hello".lstrip("-"))
+print("hello----".rstrip("-"))
+
+#encoding & Dcoding
+print("helllo".encode("utf-8"))
+print(b'hello'.decode("utf-8"))
